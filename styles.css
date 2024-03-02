@@ -1,0 +1,80 @@
+* {
+    margin:0;
+    font-family:'Muli', sans-serif;
+}
+#back {
+    background-image:url("dan-meyers-IQVFVH0ajag-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#center {
+    background-color: aliceblue;
+    color:#343a40;
+    height:53%;
+    width:30%;
+    z-index: 1;
+}
+#welcome{
+    padding:30px 0px 0px 50px;
+}
+p{
+    font-size: medium;
+    font-weight: 350;
+}
+#main{
+    height: 60%;
+    width:100%;
+}
+#text{
+    margin-left:50px;
+    background-color: aliceblue;
+    height:40px;
+    width:60%;
+    border:none;
+}
+#pass{
+    margin-left:50px;
+    background-color: aliceblue;
+    height:40px;
+    width:60%;
+    border:none;
+}
+#rem_me{
+    margin-left:53px;
+    height:auto;
+    width:100%;
+    color:#343a40;
+    font-size: small;
+}
+#log{
+    height:40px;
+    width:100px;
+    margin-left:50px;
+    background-color: aliceblue;
+    border: 1.5px solid #38b000;
+    color:#38b000;
+    transition: all 0.5s ease 0s;
+}
+#fp{
+    height:40px;
+    width:140px;
+    margin-left:40px;
+    background-color: aliceblue;
+    border:none;
+}
+#down{
+    font-weight:350;
+    background-color: #e5e5e5;
+    height: 60px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:#343a40;
+}
